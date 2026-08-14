@@ -33,7 +33,7 @@
 							<a href="about.html">About</a>
 						</li>
 						<li>
-							<a href="drapes.html">Drapes</a>
+							<a class="active-menu" href="#">Drapes</a>
 						</li>
 						<li> 
 							<a href="blinds.html">Blinds</a>
@@ -43,73 +43,35 @@
 			</div>
 		</div>
 
-		<section class="section white-background padding-top-bottom shadow-sec" id="scroll-link">
-			<div class="container">
-				<div class="sixteen columns">
-					<div class="section-header-text">
-						<h4>Get in touch<span>.</span></h4> 
-						<p>Don’t hesitate to contact us.</p> 
-						<div class="line-header"></div>
+		<section class="cd-section">
+			<div class="cd-block">
+				<div class="work-top">
+					<div class="big-text-portfolio-top">
+						<h2>Luxury Fabrics, Tailored to Fit<span>.</span></h2>
+						<p>Enhance Privacy, Warmth, and Architecture with Custom-Made Drapes.</p>
 					</div>
-				</div>
-					<div class="clear"></div>
-					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-						<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="name"> 
-								<span class="error" id="err-name">please enter name</span>
-							</label>
-							<input name="name" id="name" type="text"   placeholder="Your Name: *"/>
-						</div>
-						<div class="eight columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="email"> 
-								<span class="error" id="err-email">please enter e-mail</span>
-								<span class="error" id="err-emailvld">e-mail is not a valid format</span>
-							</label>
-							<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
-						</div>
-						<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<label for="message"></label>
-							<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
-						</div>
-						<div class="sixteen columns" data-scroll-reveal="enter bottom move 100px over 0.6s after 0.2s">
-							<div id="button-con"><button class="send_message" id="send"><span data-hover="submit">submit</span></button></div>					
-						</div>
-						<div class="clear"></div>	
-						<div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
-						<div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-						<div class="error" id="err-state"></div>
-					</form>	
-						
-					<div class="clear"></div>
-					<div id="ajaxsuccess">Successfully sent!!</div>
-					<div class="clear"></div>
-						
-			</div>
-		</section>
-
-		<section class="section white-background padding-bottom hidden-sec">
-			<div class="container">
-				<div class="one-third column">
-					<div class="contact-details">
-						<p><span>&#xf1d8;</span> Email:</p> 
-						<h6>info@mhcurtaincharm.co.nz</h6>
-					</div>
-				</div>
-				<div class="one-third column">
-					<div class="contact-details">
-						<p><span>&#xf095;</span> Phone:</p>
-						<h6>012 </h6>
-					</div>
-				</div>
-				<div class="one-third column">
-					<div class="contact-details">
-						<p><span>&#xf041;</span> Address:</p>
-						<h6>3/3 Pacific Rise, Mount Wellington, Auckland</h6>
-					</div>
+					<a href="#scroll-link" class="scroll scroll-down"></a>
 				</div>
 			</div>
 		</section>
 		
+		<section class="section white-background padding-top-bottom shadow-sec" id="scroll-link">
+			<div class="container">	
+				<div class="eight columns">	
+					<div class="section-big-header-text">	
+						<h2>Custom Drapes & Sheers<span>.</span></h2>	
+						<div class="line-big-header"></div>
+						<p>Tailored Fabric Elegance, Distinctive Textures, and Superior Insulation.</p> 
+					</div>		
+				</div>		
+				<div class="eight columns">	
+					<p class="text-bottom-margin">Discover the perfect balance of soft architectural beauty and functional performance with our custom drape collection.</p> 
+					<p class="text-bottom-margin">From floor-sweeping blackout drapes crafted for privacy and thermal comfort to airy, light-diffusing sheer curtains that soften daily sunlight, every set is custom-tailored to your precise window specifications.</p>	
+					<p>Choose from a curated selection of premium natural linens, rich velvets, and textured weaves, available in popular heading styles including S-Fold, Pinch Pleat, and Wave Fold.</p>
+				</div>		
+			</div>
+		</section>
+
 		<footer class="footer no-shadow">
 			<div class="container">
 				<div class="sixteen columns">
@@ -129,10 +91,9 @@
 				</div>
 			</div>
 		</footer> 	
-	</div>	
-
+	</div>		
 <script type="text/javascript" src="js/jquery.js"></script>	
-<script type="text/javascript" src="js/modernizr.custom.js"></script> 
+<script type="text/javascript" src="js/modernizr.custom.js"></script> 	
 <script type="text/javascript" src="js/jquery.animsition.min.js"></script>
 <script type="text/javascript">
 (function($) { "use strict";
@@ -144,7 +105,7 @@
 		outDuration           :    800,
 		linkElement           :   '.animsition-link', 
 		loading               :    true,
-		loadingParentElement  :   'body', //animsition wrapper element
+		loadingParentElement  :   'body',
 		loadingClass          :   'animsition-loading',
 		unSupportCss          : [ 'animation-duration',
 								  '-webkit-animation-duration',
@@ -163,7 +124,9 @@
 <script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script> 	
 <script type="text/javascript" src="js/scroll.js"></script>
-<script type="text/javascript" src="js/contact.js"></script>
-<script type="text/javascript" src="js/custom-contact1.js"></script>  	  
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script> 
+<script type="text/javascript" src="js/masonry.js"></script> 
+<script type="text/javascript" src="js/isotope.js"></script> 
+<script type="text/javascript" src="js/custom-work.js"></script>  	  
 </body>
 </html>

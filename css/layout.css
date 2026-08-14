@@ -1210,7 +1210,7 @@ a.scroll-down.scroll-yt {
 	overflow:hidden;
 	background:url('../images/about.jpg') no-repeat top center;
 	background-size:cover;
-} 
+}
 
 .team-wrap{
 	position:relative;
@@ -1378,10 +1378,9 @@ a.scroll-down.scroll-yt {
 	position:relative;
 	width:100%;
 	overflow:hidden;
-	background:url('../images/portfolio/work-top.jpg') no-repeat center center;
+	background:url('../images/drapes.jpg') no-repeat center center;
 	background-size:cover;
-} 
-
+}
 
 .big-text-portfolio-top { 
 	position: absolute; 
@@ -2069,7 +2068,7 @@ a.scroll-down.scroll-yt {
 	position:relative;
 	width:100%;
 	overflow:hidden;
-	background:url('../images/blog/1.jpg') no-repeat center center;
+	background:url('../images/blinds.jpg') no-repeat center center;
 	background-size:cover;
 } 
 
