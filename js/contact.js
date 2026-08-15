@@ -26,10 +26,12 @@ jQuery(document).ready(function ($) {
 			return false;
 		}
 
+		var serializedData = new URLSearchParams(new FormData(this);).toString();
+
 		$.ajax({
 			type: "POST",
 			url: $('#ajax-form').attr('action'),
-			data: $(this).serialize(),
+			data: serializedData,
 			timeout: 6000,
 			error: function(request,error) {
 				if (error == "timeout") {
