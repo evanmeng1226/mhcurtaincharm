@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
 			return false;
 		}
 
-		var serializedData = new URLSearchParams(new FormData(this);).toString();
+		var serializedData = new URLSearchParams(new FormData(this)).toString();
 
 		$.ajax({
 			type: "POST",
