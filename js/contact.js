@@ -45,7 +45,6 @@ jQuery(document).ready(function ($) {
 			success: function() {
 				$('#ajax-form').slideUp('slow');
 				$('#ajaxsuccess').slideDown('slow');
-				alert("Thank you for your submission");
 			}
 		});
 
